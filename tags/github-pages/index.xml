@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github Pages on Some insights and solutions</title>
+    <link>https://parameswaranvv.github.io/tags/github-pages/</link>
+    <description>Recent content in Github Pages on Some insights and solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 10:34:33 -0500</lastBuildDate>
+    
+	<atom:link href="https://parameswaranvv.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Static Site Deployment with  GH Actions</title>
+      <link>https://parameswaranvv.github.io/blog/using-hugo-with-ghactions/</link>
+      <pubDate>Fri, 10 Apr 2020 10:34:33 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/using-hugo-with-ghactions/</guid>
+      <description>Outlining the steps below to able to deploy a Hugo based Static Site to Github Pages using Github Actions
+1. Repository creation  The first repository will host the website. It needs to be named as: &amp;lt;github_username&amp;gt;.github.io. For example, my website repository is named as parameswaranvv.github.io The second repository will host the site in development. So, it can be named in any way. For example, my site content repository is named as param-site.</description>
+    </item>
+    
+  </channel>
+</rss>

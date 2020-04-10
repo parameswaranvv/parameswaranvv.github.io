@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Some insights and solutions</title>
+    <link>https://parameswaranvv.github.io/</link>
+    <description>Recent content on Some insights and solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 10:34:33 -0500</lastBuildDate>
+    
+	<atom:link href="https://parameswaranvv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Static Site Deployment with  GH Actions</title>
+      <link>https://parameswaranvv.github.io/blog/using-hugo-with-ghactions/</link>
+      <pubDate>Fri, 10 Apr 2020 10:34:33 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/using-hugo-with-ghactions/</guid>
+      <description>Outlining the steps below to able to deploy a Hugo based Static Site to Github Pages using Github Actions
+1. Repository creation  The first repository will host the website. It needs to be named as: &amp;lt;github_username&amp;gt;.github.io. For example, my website repository is named as parameswaranvv.github.io The second repository will host the site in development. So, it can be named in any way. For example, my site content repository is named as param-site.</description>
+    </item>
+    
+    <item>
+      <title>Struts1 Spring Boot Migration</title>
+      <link>https://parameswaranvv.github.io/blog/struts1-spring-boot-migration/</link>
+      <pubDate>Thu, 09 Apr 2020 18:05:25 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/struts1-spring-boot-migration/</guid>
+      <description>This document outlines the steps necessary to make the bare minimum changes to a Struts 1 Web application, to eliminate the dependency on a hosted container and instead, operate as a Spring Boot application with embedded container.
+Dependencies
+&amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jstl&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;javax.servlet-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.0.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet.jsp&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;javax.servlet.jsp-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.tomcat.embed&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;tomcat-embed-jasper&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;9.0.22&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.struts&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;struts-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.3.10&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-web&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.1.7.RELEASE&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
+    </item>
+    
+    <item>
+      <title>Struts2 Spring Boot Migration</title>
+      <link>https://parameswaranvv.github.io/blog/struts2-spring-boot-migration/</link>
+      <pubDate>Wed, 08 Apr 2020 18:05:25 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/struts2-spring-boot-migration/</guid>
+      <description>This document outlines the steps necessary to make the bare minimum changes to a Struts 2 Web application, to eliminate the dependency on a hosted container and instead, operate as a Spring Boot application with embedded container.
+Dependencies
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jstl&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;javax.servlet-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.0.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet.jsp&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;javax.servlet.jsp-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.3.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.tomcat.embed&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;tomcat-embed-jasper&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;9.0.22&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.struts&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;struts2-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.5.20&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.struts&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;struts2-spring-plugin&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.5.20&amp;lt;/version&amp;gt; &amp;lt;exclusions&amp;gt; &amp;lt;exclusion&amp;gt; &amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-core&amp;lt;/artifactId&amp;gt; &amp;lt;/exclusion&amp;gt; &amp;lt;exclusion&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Some insights and solutions</title>
+    <link>https://parameswaranvv.github.io/categories/</link>
+    <description>Recent content in Categories on Some insights and solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 10:34:33 -0500</lastBuildDate>
+    
+	<atom:link href="https://parameswaranvv.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Static Website Deployment</title>
+      <link>https://parameswaranvv.github.io/categories/static-website-deployment/</link>
+      <pubDate>Fri, 10 Apr 2020 10:34:33 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/categories/static-website-deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>application-modernization</title>
+      <link>https://parameswaranvv.github.io/categories/application-modernization/</link>
+      <pubDate>Thu, 09 Apr 2020 18:05:25 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/categories/application-modernization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>replatforming</title>
+      <link>https://parameswaranvv.github.io/categories/replatforming/</link>
+      <pubDate>Thu, 09 Apr 2020 18:05:25 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/categories/replatforming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
