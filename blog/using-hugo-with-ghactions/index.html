@@ -323,27 +323,41 @@
                     </section>
                     
 
-                    <div class="content">
+                    <div class="content"> </br>
+                        <aside>
+                            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#repository-creation">Repository creation</a></li>
+    <li><a href="#site-content-development">Site content development</a></li>
+    <li><a href="#github-actions-pipeline-script">Github Actions Pipeline script</a>
+      <ul>
+        <li><a href="#sample-pipeline-script">Sample Pipeline Script</a></li>
+      </ul>
+    </li>
+    <li><a href="#handling-github-security-tokens-while-deploying-across-repositories">Handling Github Security Tokens while deploying across repositories.</a></li>
+  </ul>
+</nav>
+                        </aside>
                         <p><strong>Outlining the steps below to able to deploy a Hugo based Static Site to Github Pages using Github Actions</strong></p>
-<h3 id="1-repository-creation">1. Repository creation</h3>
+<h2 id="repository-creation">Repository creation</h2>
 <ul>
 <li>The first repository will host the website. It needs to be named as: <code>&lt;github_username&gt;.github.io</code>.
 For example, my website repository is named as <code>parameswaranvv.github.io</code></li>
 <li>The second repository will host the site in development. So, it can be named in any way.
 For example, my site content repository is named as <code>param-site</code>.</li>
 </ul>
-<h3 id="2-site-content-development">2. Site content development</h3>
+<h2 id="site-content-development">Site content development</h2>
 <ul>
 <li>Clone the <code>param-site</code> repository locally and within the directory, we will develop our content for the website. I used Hugo to generate my website content and I customized it to my needs.</li>
 <li>Clone the other repository <code>parameswaranvv.github.io</code> as a submodule within the root of the current repository. We will build our code in the current repository, and deploy it via the submodule to the other repository.</li>
 </ul>
-<h3 id="3-github-actions-pipeline-script">3. Github Actions Pipeline script</h3>
+<h2 id="github-actions-pipeline-script">Github Actions Pipeline script</h2>
 <ul>
 <li>Within the <code>param-site</code> directory, create a <code>.github/workflows/main.yml</code> which will contain the pipeline script for building and deploying our website to Github Pages in our website repository <code>parameswaranvv.github.io</code> .</li>
 <li>For building the hugo site, we use the <code>peaceiris/actions-hugo@v2</code> action, and use the Hugo extended version to build. This is to enable processing of SCSS files for CSS.</li>
 <li>For deploying the site to the <code>&lt;username&gt;.github.io</code> or <code>parameswaranvv.github.io</code> in my case, use the <code>peaceiris/actions-gh-pages@v3</code> with the options turned on to deploy to an external repository. Forcing orphan ensures a clean slate deployment always.</li>
 </ul>
-<h5 id="sample-pipeline-script">Sample Pipeline Script</h5>
+<h3 id="sample-pipeline-script">Sample Pipeline Script</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># This is a basic workflow to help you get started with Actions</span>
 
 <span style="color:#66d9ef">name</span>: Deploy Static Site
@@ -392,7 +406,7 @@ For example, my site content repository is named as <code>param-site</code>.</li
           <span style="color:#66d9ef">force_orphan</span>: <span style="color:#66d9ef">true</span>
           <span style="color:#66d9ef">user_name</span>: <span style="color:#e6db74">&#39;Param&#39;</span>
           <span style="color:#66d9ef">user_email</span>: <span style="color:#e6db74">&#39;parameswaranvv@gmail.com&#39;</span>
-</code></pre></div><h3 id="4-handling-github-security-tokens-while-deploying-across-repositories">4. Handling Github Security Tokens while deploying across repositories.</h3>
+</code></pre></div><h2 id="handling-github-security-tokens-while-deploying-across-repositories">Handling Github Security Tokens while deploying across repositories.</h2>
 <ul>
 <li>Create a SSH Public and Private Key using your email address locally on a UNIX machine.</li>
 <li>Configure the SSH Private Key as a Github Secret Token named <code>GHPAGESTOKEN</code> on the <code>param-site</code> repository, where in the pipeline is hosted.</li>

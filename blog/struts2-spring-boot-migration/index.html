@@ -323,9 +323,19 @@
                     </section>
                     
 
-                    <div class="content">
+                    <div class="content"> </br>
+                        <aside>
+                            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dependencies">Dependencies</a></li>
+    <li><a href="#plugins">Plugins</a></li>
+    <li><a href="#properties">Properties</a></li>
+    <li><a href="#code-changes">Code Changes</a></li>
+  </ul>
+</nav>
+                        </aside>
                         <p><strong>This document outlines the steps necessary to make the bare minimum changes to a Struts 2 Web application, to eliminate the dependency on a hosted container and instead, operate as a Spring Boot application with embedded container.</strong></p>
-<p><strong>Dependencies</strong></p>
+<h2 id="dependencies">Dependencies</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">        <span style="color:#f92672">&lt;dependency</span><span style="color:#f92672">&gt;</span>
             <span style="color:#f92672">&lt;groupId</span><span style="color:#f92672">&gt;</span>javax.servlet<span style="color:#f92672">&lt;/groupId&gt;</span>
             <span style="color:#f92672">&lt;artifactId</span><span style="color:#f92672">&gt;</span>jstl<span style="color:#f92672">&lt;/artifactId&gt;</span>
@@ -396,7 +406,7 @@
             <span style="color:#f92672">&lt;artifactId</span><span style="color:#f92672">&gt;</span>spring-web<span style="color:#f92672">&lt;/artifactId&gt;</span>
             <span style="color:#f92672">&lt;version</span><span style="color:#f92672">&gt;</span>5.1.9.RELEASE<span style="color:#f92672">&lt;/version&gt;</span>
         <span style="color:#f92672">&lt;/dependency&gt;</span>
-</code></pre></div><p><strong>Plugins</strong></p>
+</code></pre></div><h2 id="plugins">Plugins</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">        <span style="color:#f92672">&lt;plugins</span><span style="color:#f92672">&gt;</span>
             <span style="color:#f92672">&lt;plugin</span><span style="color:#f92672">&gt;</span>
                 <span style="color:#f92672">&lt;groupId</span><span style="color:#f92672">&gt;</span>org.springframework.boot<span style="color:#f92672">&lt;/groupId&gt;</span>
@@ -418,12 +428,13 @@
                 <span style="color:#f92672">&lt;/configuration&gt;</span>
             <span style="color:#f92672">&lt;/plugin&gt;</span>
         <span style="color:#f92672">&lt;/plugins&gt;</span>
-</code></pre></div><p><strong>Properties</strong></p>
+</code></pre></div><h2 id="properties">Properties</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">    <span style="color:#f92672">&lt;properties</span><span style="color:#f92672">&gt;</span>
         <span style="color:#f92672">&lt;maven.compiler.source</span><span style="color:#f92672">&gt;</span>1.6<span style="color:#f92672">&lt;/maven.compiler.source&gt;</span>
         <span style="color:#f92672">&lt;maven.compiler.target</span><span style="color:#f92672">&gt;</span>1.6<span style="color:#f92672">&lt;/maven.compiler.target&gt;</span>
     <span style="color:#f92672">&lt;/properties&gt;</span>
-</code></pre></div><ul>
+</code></pre></div><h2 id="code-changes">Code Changes</h2>
+<ul>
 <li>Remove web.xml and add a Spring Boot application class.</li>
 <li>Add a Spring Configuration to register the Struts Filter Dispatcher</li>
 </ul>
