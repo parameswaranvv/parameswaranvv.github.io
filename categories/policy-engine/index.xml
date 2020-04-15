@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policy Engine on Some insights and solutions</title>
+    <link>https://parameswaranvv.github.io/categories/policy-engine/</link>
+    <description>Recent content in Policy Engine on Some insights and solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2020 15:59:28 -0500</lastBuildDate>
+    
+	<atom:link href="https://parameswaranvv.github.io/categories/policy-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Policy Agent (OPA) - as a Kubernetes Pod Sidecar container</title>
+      <link>https://parameswaranvv.github.io/blog/open-policy-agent/</link>
+      <pubDate>Mon, 13 Apr 2020 15:59:28 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/open-policy-agent/</guid>
+      <description>Problem Statement In today&amp;rsquo;s cloud native world, authorization and policies are more complex than ever. In a typical enterprise that has been using RBAC (Role Based Access Control) traditionally, the policy management becomes a nightmare because the need for creation of new users, roles, controls keeps growing based on everyday&amp;rsquo;s needs. Besides, enforcing these mammoth set of rules or policies to secure huge monolithic application makes it even more harder to manage and maintain.</description>
+    </item>
+    
+  </channel>
+</rss>

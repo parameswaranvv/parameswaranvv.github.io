@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Some insights and solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2020 10:34:33 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 15:59:28 -0500</lastBuildDate>
     
 	<atom:link href="https://parameswaranvv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open Policy Agent</title>
+      <link>https://parameswaranvv.github.io/tags/open-policy-agent/</link>
+      <pubDate>Mon, 13 Apr 2020 15:59:28 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/tags/open-policy-agent/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Github Actions</title>
