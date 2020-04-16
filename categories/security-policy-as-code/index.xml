@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Open Policy Agent (OPA) - as a Kubernetes Pod Sidecar container</title>
+      <title>API Authorization using Open Policy Agent (OPA) as a Sidecar Container</title>
       <link>https://parameswaranvv.github.io/blog/open-policy-agent/</link>
       <pubDate>Mon, 13 Apr 2020 15:59:28 -0500</pubDate>
       

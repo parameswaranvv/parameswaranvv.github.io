@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Open Policy Agent (OPA) - as a Kubernetes Pod Sidecar container</title>
+      <title>API Authorization using Open Policy Agent (OPA) as a Sidecar Container</title>
       <link>https://parameswaranvv.github.io/blog/open-policy-agent/</link>
       <pubDate>Mon, 13 Apr 2020 15:59:28 -0500</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Hugo Static Site Deployment with  GH Actions</title>
+      <title>Hugo Static Site Deployment with  Github Actions</title>
       <link>https://parameswaranvv.github.io/blog/using-hugo-with-ghactions/</link>
       <pubDate>Fri, 10 Apr 2020 10:34:33 -0500</pubDate>
       
