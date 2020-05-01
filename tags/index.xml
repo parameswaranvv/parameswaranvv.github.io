@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Some insights and solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2020 15:59:28 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 13:00:40 -0500</lastBuildDate>
     
 	<atom:link href="https://parameswaranvv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloud Native Buildpacks</title>
+      <link>https://parameswaranvv.github.io/tags/cloud-native-buildpacks/</link>
+      <pubDate>Thu, 30 Apr 2020 13:00:40 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/tags/cloud-native-buildpacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containerization</title>
+      <link>https://parameswaranvv.github.io/tags/containerization/</link>
+      <pubDate>Thu, 30 Apr 2020 13:00:40 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/tags/containerization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dockerfile</title>
+      <link>https://parameswaranvv.github.io/tags/dockerfile/</link>
+      <pubDate>Thu, 30 Apr 2020 13:00:40 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/tags/dockerfile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Open Policy Agent</title>

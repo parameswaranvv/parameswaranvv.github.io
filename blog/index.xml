@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Container Security &amp; Developer Productivity with Cloud Native Buildpacks</title>
+      <link>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</link>
+      <pubDate>Thu, 30 Apr 2020 13:00:40 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</guid>
+      <description>Context &amp;amp; Problems The widespread adoption of Containerized workloads to be run on cloud platforms, has given rise to two interesting problems:
+First, developers writing Dockerfiles (assuming Docker is the preferred container runtime), to deal with how their applications should be installed on the container OS image, along with what kind of dependencies are required. This takes away time from the developers when they could actually invest more time in developing and delivering business features.</description>
+    </item>
+    
+    <item>
       <title>API Authorization using Open Policy Agent (OPA) as a Sidecar Container</title>
       <link>https://parameswaranvv.github.io/blog/open-policy-agent/</link>
       <pubDate>Mon, 13 Apr 2020 15:59:28 -0500</pubDate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Container Security on Some insights and solutions</title>
+    <link>https://parameswaranvv.github.io/categories/container-security/</link>
+    <description>Recent content in Container Security on Some insights and solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2020 13:00:40 -0500</lastBuildDate>
+    
+	<atom:link href="https://parameswaranvv.github.io/categories/container-security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Container Security &amp; Developer Productivity with Cloud Native Buildpacks</title>
+      <link>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</link>
+      <pubDate>Thu, 30 Apr 2020 13:00:40 -0500</pubDate>
+      
+      <guid>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</guid>
+      <description>Context &amp;amp; Problems The widespread adoption of Containerized workloads to be run on cloud platforms, has given rise to two interesting problems:
+First, developers writing Dockerfiles (assuming Docker is the preferred container runtime), to deal with how their applications should be installed on the container OS image, along with what kind of dependencies are required. This takes away time from the developers when they could actually invest more time in developing and delivering business features.</description>
+    </item>
+    
+  </channel>
+</rss>

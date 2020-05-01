@@ -3,12 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://parameswaranvv.github.io/blog/open-policy-agent/</loc>
-    <lastmod>2020-04-13T15:59:28-05:00</lastmod>
+    <loc>https://parameswaranvv.github.io/categories/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://parameswaranvv.github.io/categories/</loc>
+    <loc>https://parameswaranvv.github.io/tags/cloud-native-buildpacks/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/categories/container-security/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/tags/containerization/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/categories/containerization/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/categories/developer-productivity/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/tags/dockerfile/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/tags/</loc>
+    <lastmod>2020-04-30T13:00:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parameswaranvv.github.io/blog/open-policy-agent/</loc>
     <lastmod>2020-04-13T15:59:28-05:00</lastmod>
   </url>
   
@@ -24,16 +69,6 @@
   
   <url>
     <loc>https://parameswaranvv.github.io/categories/security-policy-as-code/</loc>
-    <lastmod>2020-04-13T15:59:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://parameswaranvv.github.io/</loc>
-    <lastmod>2020-04-13T15:59:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://parameswaranvv.github.io/tags/</loc>
     <lastmod>2020-04-13T15:59:28-05:00</lastmod>
   </url>
   
