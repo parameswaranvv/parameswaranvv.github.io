@@ -18,7 +18,7 @@
       
       <guid>https://parameswaranvv.github.io/blog/cloudnativebuildpacks/</guid>
       <description>Context &amp;amp; Problems The widespread adoption of Containerized workloads to be run on cloud platforms, has given rise to two interesting problems:
-First, developers writing Dockerfiles (assuming Docker is the preferred container runtime), to deal with how their applications should be installed on the container OS image, along with what kind of dependencies are required. This takes away time from the developers when they could actually invest more time in developing and delivering business features.</description>
+Developer Productivity  First, developers writing Dockerfiles (assuming Docker is the preferred container runtime), to deal with how their applications should be installed on the container OS image, along with what kind of dependencies are required. This takes away time from the developers when they could actually invest more time in developing and delivering business features.</description>
     </item>
     
     <item>

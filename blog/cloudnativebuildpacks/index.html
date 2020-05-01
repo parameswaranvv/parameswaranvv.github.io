@@ -327,7 +327,12 @@
                         <aside>
                             <nav id="TableOfContents">
   <ul>
-    <li><a href="#context--problems">Context & Problems</a></li>
+    <li><a href="#context--problems">Context & Problems</a>
+      <ul>
+        <li><a href="#developer-productivity">Developer Productivity</a></li>
+        <li><a href="#container-security">Container Security</a></li>
+      </ul>
+    </li>
     <li><a href="#how-do-we-mitigate-these-problems">How do we mitigate these problems?</a></li>
     <li><a href="#buildpacks-primer">Buildpacks primer</a></li>
     <li><a href="#cloud-native-buildpacks-cnb">Cloud Native Buildpacks (CNB)</a></li>
@@ -336,6 +341,8 @@
                         </aside>
                         <h2 id="context--problems">Context &amp; Problems</h2>
 <p>The widespread adoption of Containerized workloads to be run on cloud platforms, has given rise to two interesting problems:</p>
+<h3 id="developer-productivity">Developer Productivity</h3>
+<div style="alignment: center"><img src="/images/cnb/developer-productivity.png" /></div></br>
 <p>First, developers writing Dockerfiles (assuming Docker is the preferred container runtime), to deal with how their applications should be installed on the container OS image, along with what kind of dependencies are required. This takes away time from the developers when they could actually invest more time in developing and delivering business features.
 Furthermore, the developers are burdened by:</p>
 <ul>
@@ -344,7 +351,10 @@ Furthermore, the developers are burdened by:</p>
 <li>having to understand and code a condusive environment including Networking for the application to operate within the container and in the external ecosystem</li>
 <li>ensure the container image that is created in the end conforms to full security policies as laid out by their organization</li>
 <li>periodically maintain/apply security patches and remediate vulnerabilities as dictated by the enterprise</li>
+<li>increase in counter-productive time for developers</li>
 </ul>
+<h3 id="container-security">Container Security</h3>
+<div style="alignment: center"><img style="alignment: center" src="/images/cnb/container-security.png" /></div></br>
 <p>Second, the operators need to ensure proper OS Patches are propagated across all the VMs and containers as per security and compliance standards. But,</p>
 <ul>
 <li>with a large scale ecosystem with more than 100s or 1000s of containers with different container OS images makes it difficult to roll out the patches for maybe a CVE that is found</li>
